@@ -1,0 +1,98 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_itens {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav_itens li {
+    margin: 0 15px;
+}
+
+.nav_itens a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gallery img {
+    height: 200px; 
+    object-fit: cover; 
+    width: auto; 
+    max-width: 100%; 
+}
+
+.fotoPessoal img {
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
+    border-radius: 50%; 
+}
+
+.info {
+    font
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
